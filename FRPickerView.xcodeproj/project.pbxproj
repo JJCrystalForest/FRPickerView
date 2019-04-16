@@ -12,6 +12,7 @@
 		05AC111D2266040400A43233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC111B2266040400A43233 /* Main.storyboard */; };
 		05AC111F2266040500A43233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AC111E2266040500A43233 /* Assets.xcassets */; };
 		05AC11222266040500A43233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC11202266040500A43233 /* LaunchScreen.storyboard */; };
+		05AC112B2266044B00A43233 /* FRPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC112A2266044B00A43233 /* FRPickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		05AC111E2266040500A43233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05AC11212266040500A43233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05AC11232266040500A43233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AC112A2266044B00A43233 /* FRPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRPickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		05AC11162266040400A43233 /* FRPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				05AC11292266044B00A43233 /* Sources */,
 				05AC11172266040400A43233 /* AppDelegate.swift */,
 				05AC11192266040400A43233 /* ViewController.swift */,
 				05AC111B2266040400A43233 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				05AC11232266040500A43233 /* Info.plist */,
 			);
 			path = FRPickerView;
+			sourceTree = "<group>";
+		};
+		05AC11292266044B00A43233 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				05AC112A2266044B00A43233 /* FRPickView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05AC111A2266040400A43233 /* ViewController.swift in Sources */,
+				05AC112B2266044B00A43233 /* FRPickView.swift in Sources */,
 				05AC11182266040400A43233 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
